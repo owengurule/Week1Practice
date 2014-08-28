@@ -105,7 +105,7 @@ namespace Week1Practice
             // 3. Print out the number of letters of each item in productsList using the format: "<product> has <number of letters> in it."
                 for (int j = 0; j < productList.Count; j++)
                 {
-                    Console.WriteLine(productList[j]);
+                    Console.WriteLine(productList[j].Length);      
                     
                 }
                 
